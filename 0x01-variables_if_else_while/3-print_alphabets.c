@@ -17,12 +17,13 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
+
 	while (CH <= 'z')
 	{
 		putchar(CH);
 		CH++;
 	}
 	putchar('\n');
-	return (0);
 
+	return (0);
 }
