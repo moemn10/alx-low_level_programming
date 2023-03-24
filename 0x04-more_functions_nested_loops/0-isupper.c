@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * _isupper - check if the alpha is upper or not
