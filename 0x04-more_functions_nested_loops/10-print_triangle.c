@@ -12,7 +12,7 @@ void print_triangle(int size)
 {
 	int r, c;
 
-	if (n <= 0)
+	if (size <= 0)
 		_putchar('\n');
 	else
 	{
@@ -20,7 +20,7 @@ void print_triangle(int size)
 		{
 			for (c = 1; c <= size; c++)
 			{
-				if ((n + c) <= size)
+				if ((r + c) <= size)
 					_putchar(' ');
 				else
 					_putchar('#');
