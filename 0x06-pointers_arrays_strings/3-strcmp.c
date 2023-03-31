@@ -6,7 +6,7 @@
  * @s1: first str
  * @s2: second str
  *
- * Return: is e
+ * Return: is 1 if true, 0 if false
 */
 
 int _strcmp(char *s1, char *s2)
